@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS  selectors</title>
+</head>
+<body>
+  <h1><span>CSS</span> selectors and specificity</h1>
+  <table>
+    <!--En-tête du tableau  -->
+    <thead>
+      <th></th>
+      <th>Selector</th>
+      <th>Description</th>
+      <th>Example</th>
+    </thead>
+
+<tbody>
+    <!-- 1ère ligne -->
+    <tr>
+      <td>1)</td>
+      <td>.class</td>
+      <td>.intro</td>
+      <td>Selects all elements with class="intro"</td>
+    </tr>
+
+    <!-- 2ème ligne -->
+    <tr>
+      <td>2)</td>
+      <td>.class1.class2</td>
+      <td>.name1.name2</td>
+      <td>Selects all elements with both name1 and name2 set within its class attribute</td>
+    </tr>
+
+    <!-- 3ème ligne -->
+    <tr>
+      <td>3)</td>
+      <td>.class1 .class2</td>
+      <td>.name1 .name2</td>
+      <td>Selects all elements with name2 that is a descendant of an element with name1
+</td>
+    </tr>
+
+    <!-- 4ème ligne -->
+    <tr>
+      <td>4)</td>
+      <td>#id</td>
+      <td>#firstname</td>
+      <td>Selects the element with id="firstname"
+</td>
+    </tr>
+
+    <!-- 5ème ligne -->
+    <tr>
+      <td>5)</td>
+      <td>*</td>
+      <td>*</td>
+      <td>Selects all elements
+</td>
+    </tr>
+
+    <!-- 6ème ligne -->
+    <tr>
+      <td>6)</td>
+      <td>element</td>
+      <td>h2</td>
+      <td>Selects all &lt;h2&gt; elements
+</td>
+    </tr>
+
+    <!-- 7ème ligne -->
+<tr>
+  <td>7)</td>
+  <td>element.class</td>
+  <td>p.intro</td>
+  <td>Selects all <p> elements with class="intro"
+</td>
+</tr>
+
+<!-- 8ème ligne -->
+<tr>
+  <td>8)</td>
+  <td>element,element</td>
+  <td>div, p</td>
+  <td>Selects all <div> elements and all <p> elements
+</td>
+</tr>
+
+<!-- 9ème ligne -->
+<tr>
+  <td>9)</td>
+  <td>element element</td>
+  <td>div p</td>
+  <td>Selects all <p> elements inside <div> elements
+</td>
+</tr>
+
+<!-- 10ème ligne -->
+<tr>
+  <td>10)</td>
+  <td>element>element</td>
+  <td>div > p</td>
+  <td>Selects all <p> elements where the parent is a <div> element
+</td>
+</tr>
+
+
+</tbody>
+  </table>
+
+<footer>
+  <p>Made with &#10084
+ by David </p>
+</footer>
+
+</body>
+</html>
